@@ -1,0 +1,48 @@
+# 環境變量
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python 編譯文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE相關
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# 日誌文件
+*.log
+processing.log
+
+# 不要上傳含有API密鑰的文件
+# 但保留範例文件
+!.env.example
+
+# 輸出目錄
+output/

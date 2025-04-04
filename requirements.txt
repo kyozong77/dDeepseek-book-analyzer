@@ -1,0 +1,6 @@
+requests>=2.25.1
+fpdf2>=2.7.6
+opencc>=1.1.6
+python-dotenv>=1.0.0
+openai>=1.0.0
+PyPDF2>=3.0.0
