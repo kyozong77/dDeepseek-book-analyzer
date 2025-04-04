@@ -28,8 +28,8 @@ load_dotenv()
 # ==========================
 # 配置與常數設定
 # ==========================
-# 獲取 Deepseek API 金鑰，優先從環境變數取得
-DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "sk-8f32c535222145e594366ba158698c59")
+# 設定API密鑰
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "your_deepseek_api_key_here")
 DEEPSEEK_API_URL = "https://api.deepseek.com/v1/chat/completions"
 
 # 建立桌面上的輸出資料夾

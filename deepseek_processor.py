@@ -19,10 +19,10 @@ import traceback
 # ==========================
 # API 金鑰與端點設定
 # ==========================
-DEEPSEEK_API_KEY = "sk-8f32c535222145e594366ba158698c59"
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "your_deepseek_api_key_here")
 DEEPSEEK_API_URL = "https://api.deepseek.com/v1"  # 更新為正確的API端點
 
-DEEPL_API_KEY = "d9e14478-ef4a-4ed2-b350-1a1306a2553a"
+DEEPL_API_KEY = os.getenv("DEEPL_API_KEY", "your_deepl_api_key_here")
 DEEPL_API_URL = "https://api.deepl.com/v2/translate"
 
 # 初始化 OpenCC（簡體轉繁體）
